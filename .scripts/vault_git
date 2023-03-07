@@ -1,0 +1,15 @@
+#! /usr/bin/env bash
+
+# variables setup
+my_date=$(date)
+
+secret-tool lookup password git_vault_token
+
+cd /home/$USER/Documents/Vaults
+
+# git commands
+
+git status
+git add -A 
+git commit -m "$my_date"
+git push

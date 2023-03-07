@@ -1,0 +1,18 @@
+lastupdatecheck: 1678091332
+recentrepos:
+- /home/soleus/.config
+- /home/soleus/Documents/sirwisa/oscar
+- /home/soleus/Documents/sirwisa/web-api
+- /home/soleus/Documents/sirwisa/web
+- /home/soleus/Documents/sirwisa/php
+- /home/soleus/Documents/sirwisa/fred
+- /home/soleus/Documents/sirwisa/security-scanner
+- /home/soleus/Documents/sirwisa/orchestrator
+- /home/soleus/Documents/sirwisa/go-lumber
+- /home/soleus/Documents/sirwisa/pipeline
+- /home/soleus/Documents/sirwisa/api
+- /home/soleus/Documents/sirwisa/static-client
+startuppopupversion: 5
+customcommandshistory:
+- git status
+hidecommandlog: false

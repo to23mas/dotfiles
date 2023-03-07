@@ -1,0 +1,69 @@
+#!/bin/bash
+
+#SYSTEM
+alias ll='ls -l'
+alias la='ls -al'
+#FISH
+alias f='fish'
+alias reload='source ~/.config/fish/config.fish'
+alias up1='sudo nala update'
+alias up2='sudo nala list --upgradable'
+alias up3='sudo nala upgrade -y ; flatpak update -y'
+alias vault='cd ~/Documents/Vaults'
+alias code_pacman='code /home/soleus/Documents/School/master/AI01/PACMAN/search'
+# software launchers
+alias aliases='nvim ~/.config/.aliases'
+alias mc='mc -b'
+alias hugin='bash /home/soleus/Documents/School/master/AI_logika/HUGIN_LITE_64.ubuntu-22.04/bin/hugin'
+alias nv='nvim'
+alias n='nvim'
+alias n.='nvim .'
+alias nf='nvim (fzf)'
+alias rapidminer='sh ~/Documents/rapidminer/rapidminer-studio-10.1.1/rapidminer-studio/RapidMiner-Studio.sh'
+
+#SIRWISA
+alias docker_prompt='docker exec -it fpm bash'
+
+alias docker_start='sudo systemctl start docker'
+alias docker_stop='sudo systemctl stop docker'
+
+alias nvimconf='cd ~/.config/nvim/'
+alias sirwisa='cd /home/soleus/Documents/sirwisa/'
+alias web='cd /home/soleus/Documents/sirwisa/web/'
+alias fred='cd /home/soleus/Documents/sirwisa/fred/'
+alias oscar='cd /home/soleus/Documents/sirwisa/oscar/'
+alias school='cd /home/soleus/Documents/School/master/'
+
+
+alias clear_latte_cache='cd ./temp/cache/latte/ && rm -rf ./*'
+
+#python aliases
+
+alias python='python3'
+alias py='python3'
+
+# git
+
+alias get_git_token='cat /home/soleus/Documents/sirwisa/my_docs/gitlab.txt'
+alias lg='lazygit'
+alias ggg='cat /home/soleus/Documents/sirwisa/my_docs/gitlab.txt | xclip -selection c'
+
+
+# docker
+alias dstop='docker stop (docker ps -aq) ; docker rm (docker ps -aq)'
+alias dc='docker compose'
+alias de='docker exec -it'
+alias dep='docker exec -it postgres bash'
+alias def='docker exec -it fpm bash'
+alias dcu='docker compose up'
+alias dcud='docker compose up -d'
+alias dcd='docker compose down'
+
+# make
+alias m='make'
+alias ma='make assets'
+alias mt='make acctest'
+
+
+alias t='echo "vendor/bin/tester -C tests/acceptance/JsonRpc/SystemGroup/GetTest.php"'
+

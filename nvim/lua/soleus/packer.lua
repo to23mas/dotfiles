@@ -7,7 +7,6 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
-
 -- ===================== TELESCOPE =====================
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.0',
@@ -103,7 +102,7 @@ return require('packer').startup(function(use)
 	}
 
 	use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
-
+	
 end)
 
 -- test string Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.

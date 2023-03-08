@@ -24,7 +24,7 @@ vim.keymap.set('n', '<leader>jjc', "<cmd>HopChar1MW<cr>", {desc="jump to charact
 vim.keymap.set('n', '<leader>jjC', "<cmd>HopChar2MW<cr>", {desc="jump to character 2" })
 
 --LSP keymap,
-vim.keymap.set('n', '<leader>lR', '<cmd>LspRestart<cr>', {desc="[R]eload lsp" })
+vim.keymap.set('n', '<leader>lr', '<cmd>LspRestart<cr>', {desc="[R]eload lsp" })
 
 
 --GIT
